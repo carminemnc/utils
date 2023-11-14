@@ -1,0 +1,65 @@
+##### figure
+figure.figsize: 8.0, 5.5
+figure.titlesize: 9
+figure.autolayout: True
+
+##### title
+axes.titlesize: 12
+axes.titlelocation : left
+axes.titlepad: 20 # bottom margin title
+
+##### x-axis
+xtick.labelsize: 8
+
+
+##### y-axis
+ytick.labelsize: 8
+
+
+##### general settings
+
+legend.fontsize: 10
+axes.spines.right: False
+axes.spines.top: False
+lines.linewidth: 2.25
+axes.linewidth: 0.3
+axes.labelsize: 9
+axes.grid: False
+axes.labelweight: bold
+legend.framealpha: 0.7
+legend.handlelength: 1
+
+##### custom palette
+
+    # '0085a1ff': blue-munsell
+    # '006b86ff': cerulean
+    # '00526cf': midnight-green
+    # '008b8bff': dark-cyan
+    # '5a5856ff': davys-gray
+    # '949799ff': battleship-gray
+    # '242728ff': eerie-black
+    # 'eaeaeaff': platinum
+
+    # special for plots
+    # '54b155': old-gold
+    # '00aa77': jade
+    # '54b155': mantis
+    # 'ffa600': orange
+
+axes.prop_cycle: cycler('color', ['0085a1ff','00aa77','ffa600','54b155'])
+
+##### black-theme settings
+legend.labelcolor: eaeaeaff
+xtick.color : eaeaeaff
+ytick.color: eaeaeaff
+xtick.labelcolor: eaeaeaff
+ytick.labelcolor: eaeaeaff
+axes.labelcolor: eaeaeaff
+axes.titlecolor: eaeaeaff
+axes.edgecolor: eaeaeaff
+figure.facecolor: 242728ff
+figure.edgecolor: 242728ff
+savefig.facecolor: 242728ff
+savefig.edgecolor: 242728ff
+axes.facecolor: 242728ff
+
