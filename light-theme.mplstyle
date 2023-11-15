@@ -1,6 +1,6 @@
 ##### figure
 figure.figsize: 8.0, 5.5
-figure.titlesize: 10
+figure.titlesize: 9
 figure.autolayout: True
 
 ##### title
@@ -26,41 +26,49 @@ axes.linewidth: 0.3
 axes.labelsize: 9
 axes.grid: False
 axes.labelweight: bold
-text.color: 242728ff
-legend.framealpha: 0.9
+legend.framealpha: 0.7
 legend.handlelength: 1
+legend.frameon: True
 
 ##### custom palette
 
-    # '0085a1ff': blue-munsell
-    # '006b86ff': cerulean
-    # '00526cff': midnight-green
-    # '008b8bff': dark-cyan
-    # '5a5856ff': davys-gray
-    # '949799ff': battleship-gray
-    # '242728ff': eerie-black
-    # 'eaeaeaff': platinum
+    # '0085a1': blue-munsell
+    # '006b86': cerulean
+    # '00526c': midnight-green
+    # '008b8b': dark-cyan
+    # '5a5856': davys-gray
+    # '949799': battleship-gray
+    # '242728': eerie-black
+    # 'eaeaea': platinum
 
-    # special for plots
-    # '54b155': old-gold
-    # '00aa77': jade
-    # '54b155': mantis
-    # 'ffa600': orange
+    # plots palette
+    # '0085a1': blue-munsell
+    # 'eaeaea' : platinum
+    # '8A9A5B': moss-green
+    # 'D7263D': crimson
+    # '0197F6': dodgerblue
+    # 'FFF94F': icterine
+    # 'E9724C': sunglow
+    # 'E27396': rose-pompadour
+    # '806D40': coyote
+    # '7ec995': emerald
 
-axes.prop_cycle: cycler('color', ['0085a1ff','242728ff','ffa600','54b155'])
+axes.prop_cycle: cycler('color', ['0085a1','242728','D7263D','8A9A5B','0197F6','610C9F','E9724C','E27396','806D40','7ec995'])
 
-##### black-theme settings
-legend.labelcolor: 242728ff
-xtick.color : 242728ff
-ytick.color: 242728ff
-xtick.labelcolor: 242728ff
-ytick.labelcolor: 242728ff
-axes.labelcolor: 242728ff
-axes.titlecolor: 242728ff
-axes.edgecolor: 242728ff
-figure.facecolor: eaeaeaff
-figure.edgecolor: eaeaeaff
-savefig.facecolor: eaeaeaff
-savefig.edgecolor: eaeaeaff
-axes.facecolor: eaeaeaff
+##### light-theme settings
+
+legend.edgecolor: 242728
+legend.labelcolor: 000000 # black
+xtick.color : 242728
+ytick.color: 242728
+xtick.labelcolor: 242728
+ytick.labelcolor: 242728
+axes.labelcolor: 242728
+axes.titlecolor: 242728
+axes.edgecolor: 242728
+figure.facecolor: eaeaea
+figure.edgecolor: eaeaea
+savefig.facecolor: eaeaea
+savefig.edgecolor: eaeaea
+axes.facecolor: eaeaea
 
