@@ -1,6 +1,6 @@
 ##### figure
 figure.figsize: 8.0, 5.5
-figure.titlesize: 9
+figure.titlesize: 14
 figure.autolayout: True
 
 ##### title
